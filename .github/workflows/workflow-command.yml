@@ -1,6 +1,6 @@
 name: Workflow commands
 
-on: [push]
+on: ['push']
 
 jobs: 
   my-workflow-job:
