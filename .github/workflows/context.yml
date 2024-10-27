@@ -7,5 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: "my step"
-        run: |
-          echo "Hello ${{ github.action }}"
+        run: echo "Hello ${{ env.MY_ENV }}"
+        env: 
+          MY_ENV: "variabila mea si numai a mea" 
